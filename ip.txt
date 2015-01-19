@@ -16,4 +16,13 @@ lo        Link encap:Local Loopback
           TX packets:19 errors:0 dropped:0 overruns:0 carrier:0
           collisions:0 txqueuelen:0 
           RX bytes:1520 (1.5 KB)  TX bytes:1520 (1.5 KB)
+#=============================
 
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        19G  1.4G   17G   8% /
+none            4.0K     0  4.0K   0% /sys/fs/cgroup
+udev            492M  4.0K  492M   1% /dev
+tmpfs           101M  604K  100M   1% /run
+none            5.0M     0  5.0M   0% /run/lock
+none            501M     0  501M   0% /run/shm
+none            100M     0  100M   0% /run/user
